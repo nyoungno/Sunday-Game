@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,700');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #292c34;
+}
+
+header {
+    background: white;
+    padding: 20px;
+}
+
+header > h1 {
+    color: #25272e;
+    text-align: center;
+    font-family: Asap, sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 0;
+}
+
+.game_container {
+    width: 100%;
+    text-align: center;
+
+}
+
+.button_style {
+    height: 120px;
+    width: 400px;
+    font-weight: bold;
+    font-size: 25px;
+    text-shadow: 2px 2px 4px black;
+}
+
+.action-message{
+    text-align: center;
+    color: white;
+    font-family: Asap, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+.action-message:after {
+    content: '|';
+    display: inline-block;
+    font-size: 20px;
+    animation: moveCursor 500ms infinite;
+}
+
+@keyframes moveCursor {
+    from {
+        opacity: 1;
+    }
+    
+    to {
+        opacity: 0;
+    }
+}
+
+@media screen and (max-width: 48rem) {
+    .button_style {
+        height: 100px;
+        width: 350px;
+        font-weight: bold;
+        font-size: 22px;
+    }
+
+}
