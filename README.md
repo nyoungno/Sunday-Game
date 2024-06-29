@@ -32,8 +32,6 @@
 * @keyframes moveCursor를 작성하여 깜빡이는 효과를 지정해줍니다.
 
 ## 개선사항
-Rock-Paper-Scissors은 부트스트랩을 이용하지 않고 코드를 number-guess-game2에 적용시키면서 문제점을 발견함.
-부트스트랩을 사용하면서 CSS에서 정의 내린 부분과 부트스트랩이랑 겹치면서 일부만 적용되거나 깨져서 뒤죽박죽인 경우가 있다.
-내가 짠 코드라면 수정이 쉬울 수도 있겠지만, 다른 사람들이 리팩토링하기에는 복잡하게 느껴질 수도 있을 것이다.
+-
 
 ## 웹사이트 링크 : <https://nyoungno-sundaygame.netlify.app/>
